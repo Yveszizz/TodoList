@@ -1,0 +1,116 @@
+
+body {
+    background-image: linear-gradient(120deg, skyblue,green);
+    height: 750px;
+    font-family: monospace;
+    font-size: 1.4em;
+}
+
+#bloc-page{
+    width: 400px;
+    height: 650px;
+    border: 1px solid black;
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin: 10px;*/
+}
+h1{
+    
+}
+form {
+    display: flex;
+    width: 95%;
+}
+
+form input {
+    height: 30px;
+    width: 280px;
+    border-radius: 15px;
+    border: 0px solid black;
+    margin: auto;
+}
+#addButton{
+    border-radius: 30px;
+    border: 0px solid black;
+    height: 40px;
+    width: 40px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#taskZone{
+    border: 0px solid black;
+    display: flex;
+    height: 490px;
+    overflow:hidden; 
+    overflow-y:auto;
+}
+::-webkit-scrollbar {
+    width:  12px;
+}
+::-webkit-scrollbar-thumb{
+    background: #FFFFFF;
+    border-radius: 5pc
+}
+
+#todo-list{
+    list-style: none;
+    align-items: flex-end;
+    width: 95%;
+    padding: inherit;
+    margin: auto;
+    margin-top: 30px;
+}
+.todo-item {
+    border: 0px solid black; 
+    margin: 0.3rem;
+    font-size: 0.9rem;
+    font-family: cursive;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 5px;
+    width: 100%;
+    flex-wrap: wrap;
+    //transition: all 1s ease;
+}
+
+.trash-btn{
+   flex: ;
+    
+}
+.ligne{
+    flex: ;
+    width: 100%;
+    height: 3px;
+    background-color:white;
+    border: none;
+    border-radius: 10px;
+    margin: auto;
+}
+.fall {
+    transform: translateX(-10rem) rotateZ(-2deg);
+    opacity:0;
+}
+
+/* Menu Hamburger */
+
+#hamburger, #hamburger-content {
+    display: inline;
+}
+
+#hamburger-button{
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0;
+    vertical-align: top;
+    line-height: 5px;
+    float:right;
+    margin-left: 30px;
+}
+
